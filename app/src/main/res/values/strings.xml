@@ -20,4 +20,9 @@
     <string name="sql">My SQL</string>
     <string name="c">C Programming</string>
     <string name="python">Python</string>
+    <string name="video_name">Video name</string>
+    <string name="release_date">Release date</string>
+    <string name="description_of_video">Description of video</string>
+    <string name="favourite">FAVOURITE</string>
+    <string name="videos">Videos</string>
 </resources>

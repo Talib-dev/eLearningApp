@@ -32,41 +32,40 @@
             android:id="@+id/textViewName"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="5dp"
             android:maxLines="2"
-            android:text="Video name"
+            android:text="@string/video_name"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="@color/common_black_50"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textViewDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="left"
+            android:layout_gravity="start"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:maxLines="1"
-            android:text="Release date"
+            android:text="@string/release_date"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="@color/common_gray_txt"
-            android:textSize="16dp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textViewDes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/title_layout"
-            android:layout_gravity="left"
+            android:layout_gravity="start"
             android:layout_margin="10dp"
             android:layout_marginBottom="12dp"
             android:maxLines="4"
-            android:text="Discription of video"
+            android:text="@string/description_of_video"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="@color/common_gray_txt"
-            android:textSize="16dp" />
+            android:textSize="16sp" />
 
     </LinearLayout>
     <!--real image size is 40x50px-->
@@ -86,16 +85,16 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="FAVOURITE"
+            android:text="@string/favourite"
             android:textColor="@color/colorAccent"
             android:visibility="gone" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
             android:layout_marginBottom="10dp"
-            android:text="Videos"
+            android:text="@string/videos"
             android:textColor="@color/common_blue_bg" />
 
         <androidx.recyclerview.widget.RecyclerView
